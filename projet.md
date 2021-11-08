@@ -15,11 +15,19 @@ Création d'un site web (réseau social), en utilisant les technologies front-en
 * Adolescents 
 * Investisseurs
 
+
+
 ### Dependencies
 
 *  Windows 10
 *  Visual Studio
 *  Google Chrome
 
+
+### Les outils techniques :
+
+<strong>Backend </strong>: Le framwork Flask Python<br/>
+<strong>Frontend</strong> : HTML/CSS/JAVASCRIPT.<br/>
+<strong>Base de données</strong> : Mysql
 
 
