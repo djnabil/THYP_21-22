@@ -1,5 +1,7 @@
 Document Projet.md
 
+# Prodjet de Saidani khaled
+
 # Titre du projet
 
 Développement d'un site web (réseau social)
@@ -8,7 +10,10 @@ Développement d'un site web (réseau social)
 
 Création d'un site web (réseau social), en utilisant les technologies front-end (react js), et back-end (node js)
 
-## Getting Started
+## Public cible 
+* Toutes le monde entier 
+* Adolescents 
+* Investisseurs
 
 ### Dependencies
 
