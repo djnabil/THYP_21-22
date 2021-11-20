@@ -7,75 +7,75 @@
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 @prefix mo: <http://purl.org/ontology/mo#>.
 
-@prefix rs: <https://github.com/djnabil/THYP_21-22/blob/main/onto/rs#> .
+@prefix onto: <https://github.com/djnabil/THYP_21-22/blob/main/onto/onto#> .
 
  
-<https://github.com/djnabil/THYP_21-22/blob/main/onto/rs#> a owl:Ontology ;
+<https://github.com/djnabil/THYP_21-22/blob/main/onto/onto#> a owl:Ontology ;
     dcterms:title " Réseau social " .
 	
 	
-rs:user a rdfs:Class ;
+onto:user a rdfs:Class ;
     rdfs:label "user" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
-rs:firstName a rdf:Property ;
-    rdfs:label "firstName" ;
+onto:fiontotName a rdf:Property ;
+    rdfs:label "fiontotName" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-rs:lastName a rdf:Property ;
+onto:lastName a rdf:Property ;
     rdfs:label "lastName" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-rs:image a rdf:Property ;
+onto:image a rdf:Property ;
     rdfs:label "image" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-rs:phone a rdf:Property ;
+onto:phone a rdf:Property ;
     rdfs:label "contact" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-rs:authentification a rdfs:Class ;
+onto:authentification a rdfs:Class ;
     rdfs:label "authentification" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
-rs:email a rdf:Property ;
+onto:email a rdf:Property ;
     rdfs:label "email" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
-rs:motDePass a rdf:Property ;
+onto:motDePass a rdf:Property ;
     rdfs:label "motDePass" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-rs:commentaire a rdfs:Class ;
+onto:commentaire a rdfs:Class ;
     rdfs:label "commentaire" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
  
-rs:levelCommentaire a rdf:Property ;
+onto:levelCommentaire a rdf:Property ;
     rdfs:label "levelCommentaire" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-rs:post a rdfs:Class ;
+onto:post a rdfs:Class ;
     rdfs:label "post" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
-rs:postDateStart a rdf:Property ;
+onto:postDateStart a rdf:Property ;
     rdfs:label "postDateStart" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
     
-rs:like a rdfs:Class ;
+onto:like a rdfs:Class ;
     rdfs:label "like" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
