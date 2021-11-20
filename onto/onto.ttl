@@ -89,7 +89,7 @@ onto:like a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 	
-onto: idLike a rdf:Property ;
+onto:idLike a rdf:Property ;
     rdfs:label "idLike" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .		
