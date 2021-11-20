@@ -49,6 +49,11 @@ onto:email a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
+onto:idEmail a rdf:Property ;
+    rdfs:label "idEmail" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 onto:motDePass a rdf:Property ;
     rdfs:label "motDePass" ;
     rdfs:domain o:Resource ;
@@ -63,6 +68,11 @@ onto:levelCommentaire a rdf:Property ;
     rdfs:label "levelCommentaire" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+	
+onto:commentaireDate a rdf:Property ;
+    rdfs:label "commentaireDate" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .	
 
 onto:post a rdfs:Class ;
     rdfs:label "post" ;
@@ -74,8 +84,12 @@ onto:postDateStart a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
     
-    
 onto:like a rdfs:Class ;
     rdfs:label "like" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+	
+onto: idLike a rdf:Property ;
+    rdfs:label "idLike" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .		
