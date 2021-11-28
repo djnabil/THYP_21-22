@@ -9,7 +9,7 @@ https://djnabil.github.io/THYP_21-22/projet.md
 https://djnabil.github.io/THYP_21-22/onto/onto.ttl
 
 
-### lien vers api omeka : 
+### lien vers api omeka (resource_templates) : 
 
 http://localhost/omeka-s/api/resource_templates
 
